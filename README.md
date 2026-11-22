@@ -63,6 +63,8 @@ const campo = require('./src/campoMinado');
 
 `tests/constantes-api.test.js`, `limites-e-bounds.test.js`, `inicializacao.test.js`, `primeira-jogada.test.js`, `revelar-e-contagem.test.js`, `expansao-flood.test.js`, `bandeiras.test.js`, `vitoria-derrota.test.js`, `integracao-partida.test.js`, `fixtures/boards.js`
 
+`tests/revisao-gabriel.test.js` — revisão do Gabriel: bandeira bloqueia o flood e adia a vitória, vitória com mina só flagrada, reveal bloqueado por bandeira não conta como primeira jogada no modo `seed`, mina flagrada aparece na derrota, célula com `adjacentMines` 8 e vitória em um clique via flood (`floodMineCluster`).
+
 ## Como executar
 
 ```bash
