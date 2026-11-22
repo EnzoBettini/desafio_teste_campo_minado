@@ -1,0 +1,18 @@
+{
+  "name": "desafio_teste_campo_minado",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campo minado 18x14 — testes e implementação em JavaScript",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "roots": ["<rootDir>/tests"],
+    "collectCoverageFrom": ["src/**/*.js"]
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
